@@ -1,0 +1,45 @@
+.items {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    height: fit-content;
+    padding: 15px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: #00000059 0px 5px 15px;
+}
+
+.items > span {
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.caImages {
+    display: flex;
+    align-items: center;
+    overflow: scroll;
+    gap: 20px;
+    /*animation: scrollLeft 20s linear infinite;*/
+}
+
+.caImages > div {
+    min-width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+}
+
+.itemsImages{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+/* @keyframes scrollLeft {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+} */
