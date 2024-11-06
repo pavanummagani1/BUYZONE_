@@ -6,8 +6,9 @@
     height: fit-content;
     padding: 15px;
     border-radius: 20px;
-    margin-bottom: 20px;
+    margin: 1.4em;
     box-shadow: #00000059 0px 5px 15px;
+
 }
 
 .items > span {
@@ -20,7 +21,6 @@
     align-items: center;
     overflow: scroll;
     gap: 20px;
-    /*animation: scrollLeft 20s linear infinite;*/
 }
 
 .caImages > div {
@@ -35,9 +35,13 @@
     object-fit: contain;
 }
 
-/* @keyframes scrollLeft {
+/* .caImages:hover{
+animation: scrollLeft 20s ease-out;
+}
+
+@keyframes scrollLeft {
     from {
-        transform: translateX(0);
+        transform: translateX(0%);
     }
     to {
         transform: translateX(-50%);

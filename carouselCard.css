@@ -3,12 +3,8 @@
     padding: 0px;
     box-sizing: border-box;
 }
-body{
-    background-color: #898b8d;
-}
 main{
-    position: relative;
-    /* background-color: #898b8d; */
+     background-color: #898b8d;
     
 }
 .carouselCard-Section{
@@ -16,8 +12,8 @@ main{
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     padding: 2em;
-    position: absolute;
-    top: 50%;
+    position: relative;
+    top: -300px;
 }
 
 
