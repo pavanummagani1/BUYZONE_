@@ -44,9 +44,9 @@ input[type="text"]{
 
 input[type="submit"]{
     height: 2em;
-    background-color: gold;
+    background-color: #fcbb68;
     border-radius: 10px;
-    border-color: gold;
+    border-color: #fcbb68;
     color: #fff;
 }
 input[type="button"]{

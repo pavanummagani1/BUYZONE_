@@ -12,7 +12,7 @@ body{
 
 /* HEADER */
 header {
-    background-color: #0f1111;
+    background-color: #131921;
     color: #ffffff;
     padding: 10px;
     display: flex;
@@ -77,7 +77,7 @@ header {
     outline: none;
 }
 .searchIcon{
-    background-color: #f6d663;
+    background-color: #fcbb68;
     width: 10%;
     display: flex;
     align-items: center;
@@ -142,7 +142,7 @@ header {
 }
 .button{
     display: inline-block;
-    background-color: #f6d663;
+    background-color: #fcbb68;
     color: #fff;
     padding: 10px 20px;
     font-weight: 700;
@@ -151,6 +151,12 @@ header {
     text-align: center;
     text-decoration: none;
     color: #fff;
+}
+a:hover:not(.login-links){
+    color: #fff;
+}
+.login-links:hover{
+    color: #000;
 }
 .login-links{
     text-decoration: none;

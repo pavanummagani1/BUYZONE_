@@ -1,11 +1,13 @@
 footer{
     text-align: center;
-    background-color: #004B91;
+    background-color: #232f3e;
 }
 .backtotop{
-    background-color: aqua;
+    background-color: #37475a;
     padding: 1.3em;
     text-align: center;
+    color: #fff;
+    font-weight: 600;
 }
 .footerItems{
     display: grid;
