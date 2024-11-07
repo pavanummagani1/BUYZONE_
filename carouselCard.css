@@ -70,3 +70,10 @@ img{
         display: none;
     }
 }
+
+@media screen and (max-width:500px){
+    .carouselCard-Section{
+        display: none;
+    }
+    
+}

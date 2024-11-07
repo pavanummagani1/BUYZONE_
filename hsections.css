@@ -3,6 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+.hSections{
+    background-color: #767676;
+}
 .items {
     background-color: #fff;
     display: flex;

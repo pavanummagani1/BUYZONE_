@@ -42,3 +42,16 @@ footer{
     padding-bottom: 1.2em;
     color: #fff;
 }
+
+@media screen and (max-width:500px) {
+    .footerItems{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        color: #fff;
+    }
+    .bottom-Section{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
