@@ -91,7 +91,8 @@ header {
 .language {
     display: flex;
     align-items: center;
-    gap: 4px;
+    justify-content: center;
+    gap: 10px;
 }
 .languagedropdown{
     height: 100%;
