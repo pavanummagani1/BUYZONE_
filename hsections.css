@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 .items {
     background-color: #fff;
     display: flex;
@@ -21,8 +26,11 @@
     align-items: center;
     overflow: scroll;
     gap: 20px;
+    scrollbar-width: none;
 }
-
+.caImages::-webkit-scrollbar{
+    display: none;
+}
 .caImages > div {
     min-width: 200px;
     height: 200px;
@@ -34,7 +42,6 @@
     height: 200px;
     object-fit: contain;
 }
-
 /* .caImages:hover{
 animation: scrollLeft 20s ease-out;
 }
