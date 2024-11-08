@@ -51,7 +51,15 @@ img{
     text-decoration: none;
     color: #007185;
 }
-
+.Mobile-cards{
+    display: none;
+}
+.delivery{
+    display: none;
+}
+.advertisement{
+    display: none;
+}
 @media screen and (min-width:751px) and (max-width:999px){ 
     .carsouelCard-Section{
         display: grid;
@@ -72,9 +80,68 @@ img{
     }
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:500px) {
     .carouselCard-Section{
         display: none;
     }
-    
+    .Mobile-cards{
+        display: flex;
+        gap: 1.5em;
+        overflow-x: scroll;
+        margin-bottom: 1.2em;
+    }
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    .BuyzoneProduct{
+       height: 50px;
+       width: 50px; 
+       border-radius: 50%;
+    }
+    .BuyzoneProductC3{
+       height: 50px;
+       width: 50px; 
+       border-top-right-radius: 50%;
+       border-top-left-radius: 50%;
+    }
+    .mobilecard-container{
+        background-color: aquamarine;
+        border-radius: 10px;
+        width: 40%;
+        height: 150px;
+        padding: 0.5em;
+        display: grid;
+        grid-gap: 1em;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .itemcard-container{
+        height: 150px;
+        width: 40%;
+        padding: 0.5em;
+        border: 2px solid #000;
+        border-radius: 10px;
+        object-fit: cover; 
+    }
+    .itemCards{
+        height: 100%;
+        display: block;
+    }
+    .delivery{
+        display: block;
+        height: 5vh;
+        width: 95vw;
+        margin: 20px auto;
+    }
+    .deliveryimage{
+        height: 100%;
+        width: 100%;
+    }
+    .advertisement{
+        display: block;
+        width: 90vw;
+        margin: 20px auto;
+    }
+    .buyzoneprimeimg{
+        width: 100%;
+    }
 }
