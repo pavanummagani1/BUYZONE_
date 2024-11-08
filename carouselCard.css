@@ -8,6 +8,9 @@ main{
      height: 170vh;
     
 }
+.carousel-mobile{
+    display: none;
+}
 .carouselCard-Section{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -81,14 +84,25 @@ img{
 }
 
 @media screen and (max-width:500px) {
+    .carousel-mobile{
+        display: block;
+    }
+    .carousel-desktop{
+        display: none;
+    }
     .carouselCard-Section{
         display: none;
+    }
+    .mobile{
+        position: relative;
+        top: -100px;
     }
     .Mobile-cards{
         display: flex;
         gap: 1.5em;
         overflow-x: scroll;
         margin-bottom: 1.2em;
+        padding:1.2em;
     }
     ::-webkit-scrollbar{
         display: none;
@@ -105,8 +119,9 @@ img{
        border-top-left-radius: 50%;
     }
     .mobilecard-container{
-        background-color: aquamarine;
-        border-radius: 10px;
+        background-color: #fff;
+        box-shadow: #00000059 0px 5px 15px;
+        /* border-radius: 10px; */
         width: 40%;
         height: 150px;
         padding: 0.5em;
@@ -119,7 +134,8 @@ img{
         width: 40%;
         padding: 0.5em;
         border: 2px solid #000;
-        border-radius: 10px;
+        box-shadow: #00000059 0px 5px 15px;
+        /* border-radius: 10px; */
         object-fit: cover; 
     }
     .itemCards{
