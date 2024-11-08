@@ -61,3 +61,27 @@ animation: scrollLeft 20s ease-out;
         transform: translateX(-50%);
     }
 } */
+
+
+@media screen and (max-width:500px) {
+    .hSections{
+        margin-top: -55vh;
+    }
+    .items{
+        height: fit-content;
+        gap: 0.5em;
+    }
+    .caImages{
+        padding: 10px;
+    }
+    .items > span {
+        font-weight: 600;
+        font-size: 1.2em;
+        text-align: center;
+    }
+    .itemsImages{
+        width: 150px;
+        height: 150px;
+        object-fit: contain;
+    }
+}

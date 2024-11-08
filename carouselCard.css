@@ -96,6 +96,7 @@ img{
     .mobile{
         position: relative;
         top: -100px;
+        background-color: #e3e6e6;
     }
     .Mobile-cards{
         display: flex;
@@ -138,9 +139,11 @@ img{
         /* border-radius: 10px; */
         object-fit: cover; 
     }
+    .item1{
+        background-image: url('./Images/Phone_Cards/Headsets.jpg');
+    }
     .itemCards{
         height: 100%;
-        display: block;
     }
     .delivery{
         display: block;
