@@ -65,7 +65,7 @@ animation: scrollLeft 20s ease-out;
 
 @media screen and (max-width:500px) {
     .hSections{
-        margin-top: -55vh;
+        margin-top: -58vh;
     }
     .items{
         height: fit-content;
