@@ -194,7 +194,7 @@ a:hover:not(.login-links){
     border-radius: 20px;
 }
 .sidebar-section{
-    margin: 20px;
+    margin: 10px;
     display: flex;
     flex-direction: column;
 }
