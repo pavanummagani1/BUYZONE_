@@ -118,18 +118,17 @@ img{
     }
     .itemcard-container{
         height: 150px;
-        width: 40%;
-        padding: 0.5em;
-        border: 2px solid #000;
-        box-shadow: #00000059 0px 5px 15px;
+        /* padding: 0.5em; */
+        /* border: 2px solid #000*/
+        box-shadow:2px 2px 2px black;
         /* border-radius: 10px; */
-        object-fit: cover; 
+        /* object-fit: fill;  */
     }
     .item1{
         background-image: url('./Images/Phone_Cards/Headsets.jpg');
     }
     .itemCards{
-        width: 100% !important;
+        width: 100px ;
         height: 100%;
     }
     .delivery{
