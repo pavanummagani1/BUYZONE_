@@ -244,6 +244,20 @@ display: none;
     .searchbar{
         width: 50%;
     }
+    header{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .logo{
+        width: 10%;
+        font-size: 1.2em;
+    }
+    .searchbar-container{
+        width: 50%;
+    }
+    .loginbar{
+        right: 5%;
+    }
 }
 
 @media screen and (max-width:500px){
