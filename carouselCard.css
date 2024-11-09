@@ -77,6 +77,21 @@ img {
     display: none;
 }
 
+@media screen and (min-width:1000px) and (max-width:1199px){
+    .carouselCard-Section{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        place-items: center;
+        gap: 15px 5px;
+        padding: 2em;
+        position: relative;
+        top: -200px;
+    }
+    #CarouselCard_9{
+        display: grid;
+    }
+}
+
 @media screen and (min-width:751px) and (max-width:999px) {}
 
 @media screen and (max-width:500px) {

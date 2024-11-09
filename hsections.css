@@ -83,6 +83,12 @@ animation: scrollLeft 20s ease-out;
 
 @media screen and (max-width:350px) {
         .hSections{
-            margin-top: -80vh;
+            margin-top: -79vh;
         }
+}
+
+@media screen and (min-width:1000px) and (max-width:1199px){
+.hSections{
+    margin-top: 15vh;
+}
 }
