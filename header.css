@@ -182,6 +182,7 @@ a:hover:not(.login-links){
     top: 60px;
     left: 0px;
     height: fit-content;
+    overflow-y: scroll;
     z-index: 1;
 }
 .side-user{

@@ -20,7 +20,9 @@ main{
     position: relative;
     top: -300px;
 }
-
+#CarouselCard_9{
+    display: none;
+}
 
 .carouselCard{
     background-color: #fff;
@@ -64,23 +66,7 @@ img{
     display: none;
 }
 @media screen and (min-width:751px) and (max-width:999px){ 
-    .carsouelCard-Section{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    .carouselCard{
-        background-color: #fff;
-        /* width: 200px; */
-        height: 400px;
-        padding: 20px;
-        /* box-shadow: 5px 5px 5px #fff; */
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
-    #CC4,#CC6{
-        display: none;
-    }
+
 }
 
 @media screen and (max-width:500px) {
@@ -143,6 +129,7 @@ img{
         background-image: url('./Images/Phone_Cards/Headsets.jpg');
     }
     .itemCards{
+        width: 100% !important;
         height: 100%;
     }
     .delivery{
