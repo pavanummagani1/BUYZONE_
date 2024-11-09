@@ -1,17 +1,20 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-main{
-     background-color: #e3e6e6;
-     height: 170vh;
-    
+
+main {
+    background-color: #e3e6e6;
+    height: 170vh;
+
 }
-.carousel-mobile{
+
+.carousel-mobile {
     display: none;
 }
-.carouselCard-Section{
+
+.carouselCard-Section {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     place-items: center;
@@ -20,11 +23,12 @@ main{
     position: relative;
     top: -300px;
 }
-#CarouselCard_9{
+
+#CarouselCard_9 {
     display: none;
 }
 
-.carouselCard{
+.carouselCard {
     background-color: #fff;
     width: 300px;
     height: 400px;
@@ -33,79 +37,93 @@ main{
     flex-direction: column;
     gap: 10px;
 }
-.carouselCard>span{
+
+.carouselCard>span {
     font-weight: 600;
     font-size: 1.2em;
     margin: 15px 0px;
 }
 
-.images{
+.images {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
 }
-.itemCard{
+
+.itemCard {
     text-align: center;
     display: flex;
     flex-direction: column;
 }
-img{
+
+img {
     width: 100%;
 }
-.seemore{
+
+.seemore {
     text-decoration: none;
     color: #007185;
 }
-.Mobile-cards{
-    display: none;
-}
-.delivery{
-    display: none;
-}
-.advertisement{
-    display: none;
-}
-@media screen and (min-width:751px) and (max-width:999px){ 
 
+.Mobile-cards {
+    display: none;
 }
+
+.delivery {
+    display: none;
+}
+
+.advertisement {
+    display: none;
+}
+
+@media screen and (min-width:751px) and (max-width:999px) {}
 
 @media screen and (max-width:500px) {
-    .carousel-mobile{
+    .carousel-mobile {
         display: block;
     }
-    .carousel-desktop{
+
+    .carousel-desktop {
         display: none;
     }
-    .carouselCard-Section{
+
+    .carouselCard-Section {
         display: none;
     }
-    .mobile{
+
+    .mobile {
         position: relative;
         top: -100px;
         background-color: #e3e6e6;
     }
-    .Mobile-cards{
+
+    .Mobile-cards {
         display: flex;
         gap: 1.5em;
         overflow-x: scroll;
         margin-bottom: 1.2em;
-        padding:1.2em;
+        padding: 1.2em;
     }
-    ::-webkit-scrollbar{
+
+    ::-webkit-scrollbar {
         display: none;
     }
-    .BuyzoneProduct{
-       height: 50px;
-       width: 50px; 
-       border-radius: 50%;
+
+    .BuyzoneProduct {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
     }
-    .BuyzoneProductC3{
-       height: 50px;
-       width: 50px; 
-       border-top-right-radius: 50%;
-       border-top-left-radius: 50%;
+
+    .BuyzoneProductC3 {
+        height: 50px;
+        width: 50px;
+        border-top-right-radius: 50%;
+        border-top-left-radius: 50%;
     }
-    .mobilecard-container{
+
+    .mobilecard-container {
         background-color: #fff;
         box-shadow: #00000059 0px 5px 15px;
         /* border-radius: 10px; */
@@ -116,37 +134,65 @@ img{
         grid-gap: 1em;
         grid-template-columns: repeat(2, 1fr);
     }
-    .itemcard-container{
+
+    .itemcard-container {
         height: 150px;
         /* padding: 0.5em; */
         /* border: 2px solid #000*/
-        box-shadow:2px 2px 2px black;
+        box-shadow: 2px 2px 2px black;
         /* border-radius: 10px; */
         /* object-fit: fill;  */
     }
-    .item1{
+
+    .item1 {
         background-image: url('./Images/Phone_Cards/Headsets.jpg');
     }
-    .itemCards{
-        width: 100px ;
+
+    .itemCards {
+        width: 120px;
         height: 100%;
     }
-    .delivery{
+
+    .delivery {
         display: block;
         height: 5vh;
         width: 95vw;
         margin: 20px auto;
     }
-    .deliveryimage{
+
+    .deliveryimage {
         height: 100%;
         width: 100%;
     }
-    .advertisement{
+
+    .advertisement {
         display: block;
         width: 90vw;
         margin: 20px auto;
     }
-    .buyzoneprimeimg{
+
+    .buyzoneprimeimg {
         width: 100%;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .mobilecard-container {
+        display: grid;
+        place-items: center;
+    }
+
+    .BuyzoneProduct {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+
+    }
+
+    .BuyzoneProductC3 {
+        height: 40px;
+        width: 40px;
+        border-top-right-radius: 50%;
+        border-top-left-radius: 50%;
     }
 }

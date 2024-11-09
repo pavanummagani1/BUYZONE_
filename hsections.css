@@ -1,8 +1,3 @@
-/* *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-} */
 .hSections{
     background-color: #e3e6e6;
     margin-top: -1.8em;
@@ -84,4 +79,10 @@ animation: scrollLeft 20s ease-out;
         height: 150px;
         object-fit: contain;
     }
+}
+
+@media screen and (max-width:350px) {
+        .hSections{
+            margin-top: -80vh;
+        }
 }
