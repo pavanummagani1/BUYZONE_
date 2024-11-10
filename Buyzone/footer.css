@@ -1,77 +1,86 @@
-footer{
+footer {
     text-align: center;
     background-color: #232f3e;
 }
-.backtotop{
+
+.backtotop {
     background-color: #37475a;
     padding: 1.3em;
     text-align: center;
     color: #fff;
     font-weight: 600;
 }
-.footerItems{
+
+.footerItems {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-items: center;
     color: #fff;
 }
-.footerColoumn{
+
+.footerColoumn {
     display: flex;
     flex-direction: column;
     padding: 1.2em;
 }
-.footerColoumn>span{
+
+.footerColoumn>span {
     margin: 0.5em;
 }
-.footerTitle{
+
+.footerTitle {
     font-size: 1.2em;
     font-weight: 600;
 }
-.indiaflag{
+
+.indiaflag {
     height: 30px;
     width: 40px;
     margin-left: 10px;
 }
 
-.bottom-Section{
+.bottom-Section {
     padding: 1.2em;
     color: #fff;
 }
-.bottom-Section>span{
+
+.bottom-Section>span {
     margin: 0.5em;
 }
-.copy{
+
+.copy {
     padding-bottom: 1.2em;
     color: #fff;
 }
 
-@media  screen and (min-width:701px) and (max-width:800px){
-    .footerItems{
+@media screen and (min-width:701px) and (max-width:800px) {
+    .footerItems {
         display: grid;
-        grid-template-columns:  repeat(2, 1fr);
-        grid-template-rows:  repeat(2, 1fr);
-        place-items: start center ;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        place-items: start center;
     }
 }
 
-@media  screen and (min-width:501px) and (max-width:700px) {
-    .footerItems{
+@media screen and (min-width:501px) and (max-width:700px) {
+    .footerItems {
         display: grid;
-        grid-template-columns:  repeat(2, 1fr);
-        grid-template-rows:  repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         place-items: start center;
     }
-    
+
 }
 
 @media screen and (max-width:500px) {
-    .footerItems{
+    .footerItems {
         display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
         color: #fff;
     }
-    .bottom-Section{
+
+    .bottom-Section {
         display: grid;
         grid-template-columns: 1fr;
         gap: 4px;

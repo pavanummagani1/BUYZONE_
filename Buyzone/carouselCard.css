@@ -10,7 +10,8 @@ main {
 
 }
 
-.carousel-control-prev, .carousel-control-next{
+.carousel-control-prev,
+.carousel-control-next {
     display: none;
 }
 
@@ -80,12 +81,13 @@ img {
 .advertisement {
     display: none;
 }
-.advertisementSection{
+
+.advertisementSection {
     display: none;
 }
 
-@media screen and (min-width:1351px){
-    .carouselCard-Section{
+@media screen and (min-width:1351px) {
+    .carouselCard-Section {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         place-items: center;
@@ -94,30 +96,33 @@ img {
         position: relative;
         top: -300px;
     }
-    .carouselCard{
+
+    .carouselCard {
         width: 24vw;
     }
-     
-    
+
+
 }
 
-@media  screen and (min-width:1200px)  and (max-width:1350px){
-    .carouselCard-Section{
+@media screen and (min-width:1200px) and (max-width:1350px) {
+    .carouselCard-Section {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        place-items: center;
+        place-items: center center;
         gap: 15px 5px;
         padding: 2em;
         position: relative;
         top: -200px;
     }
-    .carouselCard{
+
+    .carouselCard {
         width: 24vw;
     }
-    
+
 }
-@media screen and (min-width:1000px) and (max-width:1199px){
-    .carouselCard-Section{
+
+@media screen and (min-width:1000px) and (max-width:1199px) {
+    .carouselCard-Section {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         place-items: center;
@@ -126,13 +131,14 @@ img {
         position: relative;
         top: -200px;
     }
-    #CarouselCard_9{
+
+    #CarouselCard_9 {
         display: grid;
     }
 }
 
 @media screen and (min-width:801px) and (max-width:999px) {
-    .carouselCard-Section{
+    .carouselCard-Section {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         place-items: center;
@@ -141,26 +147,37 @@ img {
         position: relative;
         top: -200px;
     }
-    #CarouselCard_9{
+
+    #CarouselCard_9 {
         display: grid;
     }
-    .carouselCard{
+
+    .carouselCard {
         width: 30vw;
     }
-    
+
 }
+
 @media screen and (min-width:701px) and (max-width:800px) {
-    #CarouselCard_4,#CarouselCard_5, #CarouselCard_6,#CarouselCard_7,#CarouselCard_8{
+
+    #CarouselCard_4,
+    #CarouselCard_5,
+    #CarouselCard_6,
+    #CarouselCard_7,
+    #CarouselCard_8 {
         display: none;
     }
-    .carouselCard{
+
+    .carouselCard {
         width: 30vw;
     }
-    .carouselCard-Section{
+
+    .carouselCard-Section {
         position: relative;
         top: -150px;
     }
-    .advertisementSection{
+
+    .advertisementSection {
         background-color: #fff;
         padding: 1em;
         display: flex;
@@ -168,20 +185,22 @@ img {
         position: relative;
         top: -100px;
     }
-    .advertisementSection>span{
+
+    .advertisementSection>span {
         text-align: center;
         font-size: 1em;
         font-weight: bold;
         padding: 0.5em;
     }
-    .additems{
+
+    .additems {
         display: flex;
         align-items: center;
         justify-content: space-around;
         overflow: scroll;
     }
 
-    .posters{
+    .posters {
         width: 40vw;
     }
 
@@ -189,24 +208,26 @@ img {
 }
 
 @media screen and (min-width:501px) and (max-width:700px) {
-    .carousel-mobile{
+    .carousel-mobile {
         display: block;
     }
-    .carousel-desktop{
+
+    .carousel-desktop {
         display: none;
     }
-    .carouselCard-Section{
+
+    .carouselCard-Section {
         display: none;
     }
 
     .Mobile-cards {
         display: flex;
     }
-    
+
     .delivery {
         display: flex;
     }
-    
+
     .advertisement {
         display: flex;
     }
@@ -262,6 +283,7 @@ img {
         /* border-radius: 10px; */
         /* object-fit: fill;  */
     }
+
     .itemCards {
         width: 120px;
         height: 100%;

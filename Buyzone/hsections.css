@@ -61,15 +61,15 @@ animation: scrollLeft 20s ease-out;
     }
 } */
 @media screen and (min-width:1351px) {
-    .hSections{
+    .hSections {
         padding-top: 15%;
-    }  
+    }
 }
 
-@media  screen and (min-width:1200px)  and (max-width:1350px){
-    .hSections{
+@media screen and (min-width:1200px) and (max-width:1350px) {
+    .hSections {
         padding-top: 10%;
-    }   
+    }
 }
 
 @media screen and (min-width:1000px) and (max-width:1199px) {
@@ -77,11 +77,13 @@ animation: scrollLeft 20s ease-out;
         padding-top: -15vh;
     }
 }
+
 @media screen and (min-width:801px) and (max-width:999px) {
     .hSections {
         padding-top: 10%;
     }
 }
+
 @media screen and (min-width:701px) and (max-width:800px) {
     .hSections {
         margin-top: -55%;
