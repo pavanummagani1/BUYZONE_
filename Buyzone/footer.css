@@ -45,12 +45,21 @@ footer{
     color: #fff;
 }
 
-@media  screen and (min-width:501px) and (max-width:650px) {
+@media  screen and (min-width:701px) and (max-width:800px){
     .footerItems{
         display: grid;
         grid-template-columns:  repeat(2, 1fr);
         grid-template-rows:  repeat(2, 1fr);
-        place-items: center;
+        place-items: start center ;
+    }
+}
+
+@media  screen and (min-width:501px) and (max-width:700px) {
+    .footerItems{
+        display: grid;
+        grid-template-columns:  repeat(2, 1fr);
+        grid-template-rows:  repeat(2, 1fr);
+        place-items: start center;
     }
     
 }

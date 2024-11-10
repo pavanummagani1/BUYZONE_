@@ -80,6 +80,9 @@ img {
 .advertisement {
     display: none;
 }
+.advertisementSection{
+    display: none;
+}
 
 @media screen and (min-width:1000px) and (max-width:1199px){
     .carouselCard-Section{
@@ -96,9 +99,49 @@ img {
     }
 }
 
-@media screen and (min-width:751px) and (max-width:999px) {}
+@media screen and (min-width:801px) and (max-width:999px) {
+    
+}
+@media screen and (min-width:701px) and (max-width:800px) {
+    #CarouselCard_4,#CarouselCard_5, #CarouselCard_6,#CarouselCard_7,#CarouselCard_8{
+        display: none;
+    }
+    .carouselCard{
+        width: 30vw;
+    }
+    .carouselCard-Section{
+        position: relative;
+        top: -150px;
+    }
+    .advertisementSection{
+        background-color: #fff;
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -100px;
+    }
+    .advertisementSection>span{
+        text-align: center;
+        font-size: 1em;
+        font-weight: bold;
+        padding: 0.5em;
+    }
+    .additems{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        overflow: scroll;
+    }
 
-@media screen and (min-width:501px) and (max-width:650px) {
+    .posters{
+        width: 40vw;
+    }
+
+
+}
+
+@media screen and (min-width:501px) and (max-width:700px) {
     .carousel-mobile{
         display: block;
     }
