@@ -84,6 +84,21 @@ img {
     display: none;
 }
 
+@media  screen and (min-width:1200px) {
+    .carouselCard-Section{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        place-items: center;
+        gap: 15px 5px;
+        padding: 2em;
+        position: relative;
+        top: -200px;
+    }
+    .carouselCard{
+        width: 23vw;
+    }
+    
+}
 @media screen and (min-width:1000px) and (max-width:1199px){
     .carouselCard-Section{
         display: grid;
@@ -100,6 +115,21 @@ img {
 }
 
 @media screen and (min-width:801px) and (max-width:999px) {
+    .carouselCard-Section{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        place-items: center;
+        gap: 15px 5px;
+        padding: 2em;
+        position: relative;
+        top: -200px;
+    }
+    #CarouselCard_9{
+        display: grid;
+    }
+    .carouselCard{
+        width: 30vw;
+    }
     
 }
 @media screen and (min-width:701px) and (max-width:800px) {
