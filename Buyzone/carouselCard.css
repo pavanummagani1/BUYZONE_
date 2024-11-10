@@ -84,7 +84,24 @@ img {
     display: none;
 }
 
-@media  screen and (min-width:1200px) {
+@media screen and (min-width:1351px){
+    .carouselCard-Section{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        place-items: center;
+        gap: 15px 5px;
+        padding: 2em;
+        position: relative;
+        top: -300px;
+    }
+    .carouselCard{
+        width: 24vw;
+    }
+     
+    
+}
+
+@media  screen and (min-width:1200px)  and (max-width:1350px){
     .carouselCard-Section{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -95,7 +112,7 @@ img {
         top: -200px;
     }
     .carouselCard{
-        width: 23vw;
+        width: 24vw;
     }
     
 }
