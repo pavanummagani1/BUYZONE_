@@ -63,7 +63,7 @@ animation: scrollLeft 20s ease-out;
 
 @media  screen and (min-width:1200px) {
     .hSections{
-        margin-top: -15%;
+        padding-top: 15%;
     }
     
 }
