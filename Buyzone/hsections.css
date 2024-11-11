@@ -62,20 +62,21 @@ animation: scrollLeft 20s ease-out;
 } */
 @media screen and (min-width:1351px) {
     .hSections {
-        padding-top: 15%;
+        /* padding-top: 5%; */
+        margin-top: -20%;
     }
 }
 
 @media screen and (min-width:1200px) and (max-width:1350px) {
     .hSections {
-        padding-top: 10%;
-        margin-top: -270px;
+        padding-top: 25%;
+        margin-top: -40%;
     }
 }
 
 @media screen and (min-width:1000px) and (max-width:1199px) {
     .hSections {
-        padding-top: -15vh;
+        padding-top: 30vh;
     }
 }
 
